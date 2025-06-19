@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;}
+
+body{background-color: #fff0f0;
+color: #4d0000;}
+header{background-color: #d18c8c;
+color: rgb(133, 10, 10);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10%;
+box box-shadow: 0 2px 8px rgba(0,0,0,0.2);}
+.logo{font-size: 1.8em;
+font-weight: bold;}
+nav ul {display: flex;
+gap: 20px;
+list-style: none;}
+nav a {color: rgb(109, 6, 6);
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s;}
+nav a:hover{color: #d8a71e}
+/*hero section*/
+.hero {text-align: center;
+padding: 100px 20px;
+background: linear-gradient(to bottom right, #a33c3c,#f39292);
+color: rgb(138, 5, 5);}
+hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: gold;
+  color: #8b0000;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffd700;
+}
+
+/* Footer */
+footer {
+  background-color: #4d0000;
+  color: gold;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px; }
